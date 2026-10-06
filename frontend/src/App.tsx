@@ -74,10 +74,7 @@ export default function App() {
     //
     // El 6 va en un finally. Si enviar() falla y no lo pones, el boton se
     // queda deshabilitado para siempre y la pagina hay que recargarla.
-    setMensajes(mensajes);
-    setEsperando(false);
-    setError("COMPLETA 4: falta enviar el mensaje. Esta en src/App.tsx.");
-  }
+    
 
   return (
     <div className="pagina">
